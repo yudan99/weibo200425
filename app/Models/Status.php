@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Status extends Model
 {
+    protected $fillable = ['content'];
     //1-1
     public function user()
     {
